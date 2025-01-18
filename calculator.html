@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./calculator.css">
+  <title>Frontend Mentor | Calculator app</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <span>calc</span>
+      <div class="toggle">
+        <span class="theme">theme</span>
+        <div class="choice">
+          <span class="one active"><p>1</p></span>
+          <span class="two"><p>2</p></span>
+         
+        </div>
+      </div>
+    </div>
+    <div class="screen">
+      <input type="text" class="equation" >
+      <div class="result"></div>
+    </div>
+  
+    <div class="history ">
+  
+     
+    </div>
+    <div class="keys">
+      
+      <span class="num">7</span>
+      <span class="num">8</span>
+      <span class="num">9</span>
+      <span class="delete fn"><i class="fa-solid fa-delete-left del"></i></span>
+      <span class="num">4</span>
+      <span class="num">5</span>
+      <span class="num">6</span>
+      <span class="operation ">+</span>
+      <span class="num">1</span>
+      <span class="num">2</span>
+      <span class="num">3</span>
+      <span class="operation">-</span>
+      <span class="num">.</span>
+      <span class="num">0</span>
+      <span class="operation">/</span>
+      <span class="operation">*</span>
+      <span class="num">(</span>
+      <span class="num">)</span>
+      <span class="save fn">save</span>
+      <span class="restore fn">Ans  |   <i class="fa-solid fa-clock-rotate-left"></i></span>
+      <span class="reset fn">reset / clear</span>
+      <span class="equal">=</span>
+    </div>
+  </div>
+  
+<script src="./calculator.js"></script>
+</body>
+</html>
